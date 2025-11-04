@@ -11,7 +11,6 @@ import (
 /*Provider implements the REST API provider*/
 func Provider() *schema.Provider {
 	return &schema.Provider{
-		Description: "Rest API provider forked from `Mastercard/restapi`, enhanced with per operation (CRUD) header control block to allow fine-grain header controls."
 		Schema: map[string]*schema.Schema{
 			"uri": {
 				Type:        schema.TypeString,
